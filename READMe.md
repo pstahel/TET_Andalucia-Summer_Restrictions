@@ -5,9 +5,13 @@ This project provides an interactive web map visualizing the legal and illegal s
 ## 🔍 What It Does
 
 - **Highlights TET sections** that are **illegal to ride in summer** due to their location within forest areas or their 400 m buffer zones.
-- Uses **official road network data** to verify whether tracks are within 50 m of legal roads (as required by law).
-- Shows **legal sections** in blue and **illegal sections** in red.
-- Includes additional map layers: towns, water, forest, and road buffers.
+- Uses **official road network data** to verify whether tracks are on legal roads (as required by law).
+- Shows the **TET track** in blue and **illegal sections** in red.
+- Includes additional map layers: towns, water, forest, and forest buffers.
+
+> ⚠️ Due to GPS inaccuracies and data resolution, a 50 m tolerance was used to determine proximity to official roads.
+
+> 🗂️ The forest and road layers were simplified for better map performance – all legality calculations were done using the full-resolution geometries.
 
 ## 🗺️ Live Preview
 
@@ -36,7 +40,7 @@ This project provides an interactive web map visualizing the legal and illegal s
 
 ## 📜 License
 
-The analysis, layers, styles and webmap (except the TET track) are published under:
+The analysis, layers, styles, and web map (excluding the TET track) are published under:
 
 **Creative Commons Attribution 4.0 International (CC BY 4.0)**  
 [Read license text](https://creativecommons.org/licenses/by/4.0/)
@@ -51,7 +55,7 @@ The GPX data is **not included for download** and remains the property of the
 By visiting the official website [transeurotrail.org](https://www.transeurotrail.org),  
 you can access the latest version and agree to their [Terms of Use](https://www.transeurotrail.org/legal).
 
-> **Note:** Redistribution or hosting of the original or derived GPX files is strictly prohibited.
+> **Note:** Redistribution or hosting of original or modified GPX files is strictly prohibited.
 
 
 ## ⚠️ Disclaimer
