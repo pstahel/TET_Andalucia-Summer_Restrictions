@@ -1,6 +1,6 @@
 # TET Andalusia – Summer Restrictions
 
-This project provides an interactive web map visualizing the legal and illegal sections of the Trans Euro Trail (TET) in Andalusia during the summer fire restriction period, according to the wildfire regulations issued by the Junta de Andalucía.
+This project provides an interactive web map visualizing the legal and illegal sections of the Trans Euro Trail (TET) in Andalusia during the summer fire restriction period (June 1 to October 15), according to the wildfire regulations issued by the Junta de Andalucía.
 
 ## 🔍 What It Does
 
