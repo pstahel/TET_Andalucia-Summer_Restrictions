@@ -15,7 +15,7 @@ This project provides an interactive web map visualizing the legal and illegal s
 
 ## 🗺️ Live Preview
 
-> 🔗 [View the interactive map](https://pstahel.github.io/tet-andalusia-summer-restrictions)
+> 🔗 [View the interactive map](https://pstahel.github.io/TET_Andalucia-Summer_Restrictions/)
 
 ## 📦 Data Sources
 
